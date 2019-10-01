@@ -1,0 +1,22 @@
+<DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title>サイコロ</title>
+    </head>
+    <body>
+    <h3>サイコロ</h3>
+      <hr>
+      <form name="form">
+      <input name="sai" type="text">
+        <input type="button" value="振る" onClick="getNum()">
+      </form>
+      
+      <script type="text/javascript">
+      function getNum(){
+        r=Math.floor(Math.random()*6)+1;
+        document.form1.sai.value=r;
+      }
+      </script>
+    </body>
+  </html>
