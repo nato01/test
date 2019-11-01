@@ -32,9 +32,15 @@ public class Test {
       System.out.println(sakakibara.address);
 
       Person aibo=new Person();
+      aibo.name="aibo";
       aibo.talk();
+      aibo.walk();
 
-      Person asimo=new P
+
+      Person asimo=new Person();
+      asimo.name="asimo";
+      asimo.talk();
+
 
 	}
 
